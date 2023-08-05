@@ -1,6 +1,6 @@
-let unicoDiv = document.querySelector('div');
-console.log(unicoDiv);
+let div = document.querySelector('div');
+console.log(div);
 
-unicoDiv.addEventListener('click', function() {
+div.addEventListener('click', function() {
     alert("Hola! Soy el div.");
 });
